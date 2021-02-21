@@ -29,7 +29,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'ExampleEffectiveJava.App'
+    mainClass = 'com.an7one.example.effectivejava.App'
 }
 
 tasks.named('test') {
