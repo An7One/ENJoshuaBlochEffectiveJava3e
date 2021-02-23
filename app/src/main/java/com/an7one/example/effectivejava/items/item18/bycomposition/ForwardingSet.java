@@ -2,9 +2,20 @@ package com.an7one.example.effectivejava.items.item18.bycomposition;
 
 import java.util.*;
 
+/**
+ * Decorator Pattern
+ * loosely referred to as "delegate"
+ *
+ * @param <E>
+ */
 class ForwardingSet<E> implements Set<E> {
     private final Set<E> set;
 
+    /**
+     * flexible constructor injection
+     *
+     * @param set any collection implementing the Set interface
+     */
     public ForwardingSet(Set<E> set) {
         this.set = set;
     }

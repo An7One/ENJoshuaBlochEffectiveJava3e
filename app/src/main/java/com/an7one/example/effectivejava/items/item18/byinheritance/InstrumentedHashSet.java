@@ -9,7 +9,7 @@ public class InstrumentedHashSet<E> extends HashSet<E> {
      */
     private static final long serialVersionUID = 1L;
 
-    // the number of attempted element insersions
+    // the number of attempted element insertions
     private int addCount = 0;
 
     public InstrumentedHashSet() {
