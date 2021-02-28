@@ -2,10 +2,22 @@ package com.an7one.example.effectivejava.items.item18.bycomposition;
 
 import java.util.*;
 
-public class InstrumentedHashSet<E> extends ForwardingSet<E> {
+/**
+ * The disadvantages of wrapper classes are few.
+ *  One caveat is that wrapper classes are not suited for use in callback frameworks,
+ *  wherein objects pass self-reference to other objects for subsequent invocations(callbacks).
+ *
+ *  Because a wrapped object does NOT know of its wrapper,
+ *  it passes a reference to itself(this),
+ *  and callbacks elude the wrapper.
+ *  This is known as SELF problem.
+ *
+ * @param <E>
+ */
+class InstrumentedHashSet<E> extends ForwardingSet<E> {
     private int addCount = 0;
 
-    public InstrumentedHashSet(Set<E> set) {
+    InstrumentedHashSet(Set<E> set) {
         super(set);
     }
 
