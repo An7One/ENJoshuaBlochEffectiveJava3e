@@ -4,7 +4,7 @@ import com.an7one.example.effectivejava.util.Constant;
 
 @SuppressWarnings(Constant.WARNING.UNUSED)
 class Figure {
-    enum Shape{RECTANGLE, CIRCLE};
+    enum Shape {RECTANGLE, CIRCLE}
 
     // tag field - the shape of this figure
     final Shape shape;
@@ -17,20 +17,20 @@ class Figure {
     double radius;
 
     // the constructor for CIRCLE
-    Figure(double radius){
+    Figure(double radius) {
         this.shape = Shape.CIRCLE;
         this.radius = radius;
     }
 
     // the constructor for RECTANGLE
-    Figure(double length, double width){
+    Figure(double length, double width) {
         this.shape = Shape.RECTANGLE;
         this.length = length;
         this.width = width;
     }
 
-    double area(){
-        switch(shape){
+    double area() {
+        switch (shape) {
             case RECTANGLE:
                 return length * width;
             case CIRCLE:

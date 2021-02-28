@@ -3,10 +3,10 @@ package com.an7one.example.effectivejava.items.item23.example;
 import com.an7one.example.effectivejava.util.Constant;
 
 @SuppressWarnings(Constant.WARNING.UNUSED)
-class Circle extends Figure{
+class Circle extends Figure {
     final double radius;
 
-    Circle(double radius){
+    Circle(double radius) {
         this.radius = radius;
     }
 

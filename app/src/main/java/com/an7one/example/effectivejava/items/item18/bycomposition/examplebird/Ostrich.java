@@ -2,17 +2,18 @@ package com.an7one.example.effectivejava.items.item18.bycomposition.examplebird;
 
 public class Ostrich {
     private Bird bird;
-    public Ostrich(Bird bird){
+
+    public Ostrich(Bird bird) {
         this.bird = bird;
     }
 
-    public void chirp(){
+    public void chirp() {
         bird.chirp();
 
         System.out.println("Canary is chirping");
     }
 
-    public void run(){
+    public void run() {
         bird.run();
 
         System.out.println("Canary is running");
