@@ -7,12 +7,17 @@
         <ul>
             <li>subtype is a (sub)type of supertype</li>
             <li><a href="https://stackoverflow.com/a/8482091/6061609">[stackoverflow]</a> Covariant, Contravariant, Invariant</li>
+            <ul>
+                <li>Covariant</li>
+                <li>Contravariant</li>
+                <li>Invariant</li>
+            </ul>
         </ul>
         <li>Reified
             <ul>
                 <li>to enforce element types at runtime</li>
             </ul>
-        </li>
+        </li>****
         <li>to provide runtime safety, NOT compile-time safety</li>
     </ul>
     <li>List</li>

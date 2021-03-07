@@ -17,10 +17,10 @@ public class Demo {
 //         list.add("I do not fit it");
 
         // Counter example: why is generic array creation illegal?
-/*        List<String>[] stringLists = new List<String>[1];
-        List<Integer> intList = List.of(42);
-        Object[] objects = stringLists;
-        objects[0] = intList;
-        String str = stringLists[0].get(0);*/
+//        List<String>[] stringLists = new List<String>[1];
+//        List<Integer> intList = List.of(42);
+//        Object[] objects = stringLists;
+//        objects[0] = intList;
+//        String str = stringLists[0].get(0);
     }
 }
