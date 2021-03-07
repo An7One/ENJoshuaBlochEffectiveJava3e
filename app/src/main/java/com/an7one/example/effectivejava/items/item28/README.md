@@ -6,7 +6,7 @@
         <li>Covariant</li>
         <ul>
             <li>subtype is a (sub)type of supertype</li>
-            <li>[stackoverflow](https://stackoverflow.com/a/8482091/6061609) Covariant, Contravariant, Invariant</li>
+            <li><a href="https://stackoverflow.com/a/8482091/6061609">[stackoverflow]</a> Covariant, Contravariant, Invariant</li>
         </ul>
         <li>Reified
             <ul>
