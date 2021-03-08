@@ -15,8 +15,9 @@ public class InstrumentedHashSetTest {
         var input = Arrays.asList("Snap", "Crackle", "Pop");
         final int SIZE_INPUT = input.size();
 
-        var instrumentedHashSet = new InstrumentedHashSet(seed);
+        var instrumentedHashSet = new InstrumentedHashSet<>(seed);
         instrumentedHashSet.addAll(input);
+
         final int SIZE_SET = instrumentedHashSet.size();
         final int COUNT = instrumentedHashSet.getAddCount();
 
