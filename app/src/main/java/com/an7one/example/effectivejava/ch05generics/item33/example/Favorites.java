@@ -8,8 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-//
-
 /**
  * Typesafe heterogeneous container pattern - implementation
  * <p>
