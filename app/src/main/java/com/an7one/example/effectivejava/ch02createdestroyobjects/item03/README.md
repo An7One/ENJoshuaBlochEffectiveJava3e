@@ -6,4 +6,5 @@
     <ul>
         <li>it is impossible to substitute a mock implementation for a singleton unless it impements an interface that serves as its type</li>
     </ul>
+    <li>A single-element <code>enum</code> type is often the best way to implement a singleton</li>
 </ul>
