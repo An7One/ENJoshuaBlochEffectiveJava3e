@@ -1,4 +1,4 @@
-package com.an7one.example.effectivejava.ch06enumannotations.item36.example;
+package com.an7one.example.effectivejava.ch06enumsandannotations.item36.example;
 
 import com.an7one.example.effectivejava.util.Constant;
 
