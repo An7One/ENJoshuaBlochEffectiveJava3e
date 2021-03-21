@@ -9,6 +9,7 @@ import com.an7one.example.effectivejava.util.Constant;
  * <p>
  * one cannot use this approach if the singleton must extend a superclass other than `Enum`,
  * though one can declare an enum to implement interface.
+ * `enum`s in Java are `final` by default
  *
  * <p>
  * Reference:
