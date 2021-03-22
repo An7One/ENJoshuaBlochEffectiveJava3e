@@ -10,7 +10,8 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ChooserImpleGenericArray<T> {
     private final T[] choiceArray;
 
-    public ChooserImpleGenericArray(Collection<T> choices){
+    @SuppressWarnings(Constant.WARNING.UNCHECKED) // this is required
+    public ChooserImpleGenericArray(Collection<T> choices) {
         // compile error: Object[] cannot be converted to T[]
         // this.choiceArray = choices.toArray();
 
@@ -21,7 +22,7 @@ public class ChooserImpleGenericArray<T> {
          *
          * [recap]: element type information is erased from generics at runtime
          */
-        this.choiceArray = (T[])choices.toArray();
+        this.choiceArray = (T[]) choices.toArray();
     }
 
 //    public Object choose() {
