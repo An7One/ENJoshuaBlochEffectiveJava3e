@@ -12,6 +12,7 @@ public enum ExtendedOperation implements Operation {
             return Math.pow(x, y);
         }
     },
+
     REMAINDER("%") {
         public double apply(double x, double y) {
             return x % y;

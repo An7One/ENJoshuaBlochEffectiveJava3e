@@ -9,6 +9,7 @@ public enum BasicOperation implements Operation {
             return x + y;
         }
     },
+
     MINUS("-") {
         public double apply(double x, double y) {
             return x - y;
