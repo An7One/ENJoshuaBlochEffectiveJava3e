@@ -33,7 +33,7 @@ Do not be tempted to use basic functional interfaces with boxed primitives inste
     <li>where none of standard ones is applicable</li>
     <li>even if one of standard ones is applicable, but one of the three conditions is met</li>
     <ul>
-        <li>it will be compmonly used and could benefit from a descriptive name.</li>
+        <li>it will be commonly used and could benefit from a descriptive name.</li>
         <li>it has a strong contract associated with it.</li>
         <li>it would benefit from custom default methods.</li>
     </ul>
@@ -42,7 +42,7 @@ Do not be tempted to use basic functional interfaces with boxed primitives inste
 ##### How to create one's own purpose-built functional interfaces?
 
 <ul>
-    <li>Always annotate your functional interfaces with teh @FunctionalInterface annotation.</li>
+    <li>Always annotate your functional interfaces with the <code>@FunctionalInterface</code> annotation.</li>
     <li>Do not provide a method with multiple overloadings that take different functional interfaces in the same argument position if it could create a possible ambiguity in the client</li>
     <ul>
         <li>The easiest way to avoid this problem is not to write overloadings that take different functional interfaces in the same argument position.</li>
