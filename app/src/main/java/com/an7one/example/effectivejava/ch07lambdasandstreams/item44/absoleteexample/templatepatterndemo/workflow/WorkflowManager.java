@@ -1,9 +1,9 @@
+package com.an7one.example.effectivejava.ch07lambdasandstreams.item44.absoleteexample.templatepatterndemo.workflow;
+
 /**
  * Reference:
  * https://www.javacodegeeks.com/2013/05/template-method-pattern-using-lambda-expressions-default-methods.html
  */
-package com.an7one.example.effectivejava.ch07lambdasandstreams.item44.absoleteexample.templatepatterndemo.workflow;
-
 public abstract class WorkflowManager {
     public void doTask1() {
         System.out.println("Doing task 1...");
