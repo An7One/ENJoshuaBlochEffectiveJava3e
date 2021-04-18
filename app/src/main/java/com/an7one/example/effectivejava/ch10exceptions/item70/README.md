@@ -6,6 +6,8 @@ To use checked exceptions for conditions from which the caller can reasonably be
 
 To use runtime exceptions to indicate programming errors.
 
+All of the unchecked throwables one implements should subclass <code>RuntimeException</code> directly or indirectly.
+
 ### Related Items
 
-77
+12, 71, 75, 77

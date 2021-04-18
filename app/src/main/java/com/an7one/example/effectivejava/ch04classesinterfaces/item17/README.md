@@ -28,8 +28,8 @@ Cons:
     <li>Immutable classes require a separate object for each distinct value.</li>
 </ul>
 
+#### Summary
 
-##### Summary
 <ul>
     <li>Classes should be immutable unless there is a very good reasont o make them mutable.</li>
     <li>To limit its mutability as much as possible, if a class cannot be made immutable.</li>
@@ -42,3 +42,7 @@ Cons:
         <li>Do NOT provide any "re-initialization" method that enables an object to be reused as if it had been constructed with a different initial state. Such methods generally provide little if any performance benefit at the expense of increased complexity.</li>
     </ul>
 </ul>
+
+### Related Item
+
+76
