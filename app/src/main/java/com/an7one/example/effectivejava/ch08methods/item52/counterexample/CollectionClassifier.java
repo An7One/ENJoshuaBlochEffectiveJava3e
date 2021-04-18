@@ -20,11 +20,8 @@ public class CollectionClassifier {
     }
 
     public static void main(String[] args) {
-        Collection<?>[] collections = {
-                new HashSet<String>(),
-                new ArrayList<BigInteger>(),
-                new HashMap<String, String>().values()
-        };
+        Collection<?>[] collections = { new HashSet<String>(), new ArrayList<BigInteger>(),
+                new HashMap<String, String>().values() };
 
         for (Collection<?> collection : collections)
             System.out.println(classify(collection));
