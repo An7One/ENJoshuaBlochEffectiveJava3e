@@ -2,7 +2,7 @@ package com.an7one.example.effectivejava.ch08methods.item50.example;
 
 import java.util.Date;
 
-public class Period {
+public final class Period {
     private final Date start;
     private final Date end;
 

@@ -2,7 +2,7 @@ package com.an7one.example.effectivejava.ch08methods.item50.counterexample;
 
 import java.util.Date;
 
-public class PeriodBetter {
+public final class PeriodBetter {
     private final Date start;
     private final Date end;
 
