@@ -1,0 +1,1 @@
+Examples and notes of Effective Java, 3e, by Joshua Bloch
