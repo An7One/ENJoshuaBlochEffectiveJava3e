@@ -3,6 +3,7 @@
 ## Item 62 Avoid <code>String</code>s Where Other Types Are More Appropriate
 
 Strings are poor substitutes for
+
 <ul>
     <li>other value types</li>
     <li><code>enum</code> types</li>

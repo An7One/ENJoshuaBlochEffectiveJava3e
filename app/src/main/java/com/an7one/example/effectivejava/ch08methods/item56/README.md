@@ -20,6 +20,6 @@ When one documenting an annotation type, be sure to document any members, as wel
 
 Whether a class or static method is thread-safe, one should document its thread-safety.
 
-### Related Items
+## Related Item
 
 15, 19, 74, 87
